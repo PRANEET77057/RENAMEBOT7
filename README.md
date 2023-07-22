@@ -14,7 +14,7 @@
 
 ⚠️ personal use & 1 process at a time 
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/MrMKN/Simple-Rename-Bot&env[BOT_TOKEN]&env[API_ID]&env[API_HASH]&env[ADMIN]&env[CAPTION]&env[THUMBNAIL]&run_command=python%20bot.py&branch=main&name=renamer)              
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/PRANEET77057/Simple-Rename-Bot&env[BOT_TOKEN]&env[API_ID]&env[API_HASH]&env[ADMIN]&env[CAPTION]&env[THUMBNAIL]&run_command=python%20bot.py&branch=main&name=renamer)              
 
 ### Heroku
 
@@ -29,8 +29,4 @@ view - view current thumbnail
 ```
 
 
-## Support
 
-● [BOT UPDATES](https://t.me/mkn_bots_updates)
-
-● [SUPPORT GROUP](https://t.me/mkn_botz_discussion_group)
