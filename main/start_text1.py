@@ -7,9 +7,11 @@ from config import ADMIN
 async def start_cmd(bot, msg):
     txt="This is personal use bot 🙏. Do you want your own bot? 👇 Click the source code to deploy"
     btn = InlineKeyboardMarkup([[
-        InlineKeyboardButton("🤖 SOURCE CODE", url="https://github.com/MrMKN/Simple-Rename-Bot")
+        InlineKeyboardButton("🤖 SOURCE CODE", url="https://github.com/PRANEET77057/RENAMEBOT7")
         ],[
         InlineKeyboardButton("🖥️ How To Deploy", url="https://youtu.be/oc847WvOUaI")
+     ],[
+     InlineKeyboardButton("➕️ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕️", url=f"http://t.me/movieplazarenamebot?startgroup=true")  
     ]])
     if msg.from_user.id != ADMIN:
         return await msg.reply_text(text=txt, reply_markup=btn, disable_web_page_preview = True)
@@ -18,12 +20,13 @@ async def start_cmd(bot, msg):
 
 @Client.on_callback_query(filters.regex("start"))
 async def start(bot, msg, cb=True):   
-    txt=f"hai {msg.from_user.mention} i am simple rename bot with personal usage.\nthis bot is made by <b><a href=https://t.me/Telugu_Bomma_VR_official>Telugu_Bomma_VR_official</a></b>"                                     
+    txt=f"HAI {msg.from_user.mention} I AM A SIMPLE RENAME BOT CREATED BY MR INTROVERT.\nthis bot is made by <b><a href=https://t.me/Telugu_Bomma_VR_official>Telugu_Bomma_VR_official</a></b>"                                     
     button= [[
         InlineKeyboardButton("🤖 Bot Updates", url="https://t.me/Telugu_Bomma_VR_official")
         ],[
         InlineKeyboardButton("ℹ️ Help", callback_data="help"),
-        InlineKeyboardButton("📡 About", callback_data="about") 
+        InlineKeyboardButton("📡 About", callback_data="about") ,
+     InlineKeyboardButton("➕️ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕️", url=f"http://t.me/movieplazarenamebot?startgroup=true")  
     ]]  
     if cb:
         await msg.message.edit(text=txt, reply_markup=InlineKeyboardMarkup(button), disable_web_page_preview = True, parse_mode=enums.ParseMode.HTML)
