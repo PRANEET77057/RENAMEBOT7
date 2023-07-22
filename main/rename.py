@@ -30,13 +30,7 @@ async def rename_start(client, message):
         )
 
            
-    if CAPTION:
-        try:
-            cap = CAPTION.format(file_name=new_name, file_size=filesize)
-        except Exception as e:            
-            return await sts.edit(text=f"Your caption Error unexpected keyword ●> ({e})")           
-    else:
-        cap = f"{new_name}\n\n💽 size : {filesize}"
+   
 
     # this idea's back end is MKN brain 🧠
 
