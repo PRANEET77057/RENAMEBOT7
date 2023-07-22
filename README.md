@@ -1,5 +1,7 @@
 # Simple-Rename-Bot 
-
+<p align="center">
+  <img src="https://telegra.ph/file/21151ef5aef453c842220.jpg" alt="RKN RENAME BOT V2">
+</p>
 📝 Simple & High Speed Telegram File Rename Bot For only personal use 
 
 
