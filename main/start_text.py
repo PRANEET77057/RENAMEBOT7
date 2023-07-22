@@ -12,7 +12,7 @@ Tʜɪs Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛs Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ
 Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : MR INTROVERT 💞</b>"""
 
     btn = InlineKeyboardMarkup([[
-        InlineKeyboardButton("🤖 SOURCE CODE", url="https://github.com/PRANEET77057/Simple-Rename-Bot")
+        InlineKeyboardButton("🤖 SOURCE CODE", url="https://github.com/PRANEET77057/RENAMEBOT7")
         ],[
         InlineKeyboardButton("🖥️ How To Deploy", url="https://youtu.be/oc847WvOUaI")
     ]])
@@ -53,7 +53,7 @@ async def help(bot, msg):
 async def about(bot, msg):
     me=await bot.get_me()
     Master="<a href=https://t.me/Telugu_Bomma_VR_official</a>"  
-    Source="<a href=https://github.com/PRANEET77057/Simple-Rename-Bot>Click Here</a>"
+    Source="<a href=https://github.com/PRANEET77057/RENAMEBOT7>Click Here</a>"
     txt=f"<b>Bot Name: {me.mention}\nDeveloper: <a href=https://github.com/PRANEET77057>Nani</a>\nBot Updates: <a href=https://t.me/Telugu_Bomma_VR_official>TELUGU_BOMMA_VR_OFFICIAL</a>\nMy Master's: {Master}\nSource Code: {Source}</b>"                 
     button= [[        
         InlineKeyboardButton("🚫 Close", callback_data="del"),
