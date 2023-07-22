@@ -16,9 +16,7 @@ async def start_cmd(bot, msg):
     if msg.from_user.id != ADMIN:
         return await msg.reply_text(text=txt, reply_markup=btn, disable_web_page_preview = True)
     await start(bot, msg, cb=False)
-if Config.START_PIC:
-        await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)       
-   
+
 @Client.on_callback_query(filters.regex("start"))
 async def start(bot, msg, cb=True):   
     txt=f"HAI {msg.from_user.mention} I AM A SIMPLE RENAME BOT CREATED BY MR INTROVERT.\nthis bot is made by <b><a href=https://t.me/Telugu_Bomma_VR_official>Telugu_Bomma_VR_official</a></b>"                                     
