@@ -16,7 +16,10 @@ async def start_cmd(bot, msg):
     if msg.from_user.id != ADMIN:
         return await msg.reply_text(text=txt, reply_markup=btn, disable_web_page_preview = True)
     await start(bot, msg, cb=False)
-
+if Config.START_PIC:
+        await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)       
+    else:
+        await message.reply_text(text=Txt.START_TXT.format(user.mention), reply_markup=button, disable_web_page_preview=True)
 
 @Client.on_callback_query(filters.regex("start"))
 async def start(bot, msg, cb=True):   
