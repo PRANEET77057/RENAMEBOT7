@@ -17,7 +17,7 @@ async def rename_start(client, message):
 	    reply_markup=ForceReply(True))
 
 
-@Client.on_message(filters.private & filters.reply)
+
 async def reply_message(client, message):
     reply_message = message.reply_to_message
     if (reply_message.reply_markup) and isinstance(reply_message.reply_markup, ForceReply):
