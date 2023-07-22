@@ -12,7 +12,7 @@ Tʜɪs Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛs Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ
 Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : MR INTROVERT 💞</b>"""
 
     btn = InlineKeyboardMarkup([[
-        InlineKeyboardButton("🤖 SOURCE CODE", url="https://github.com/MrMKN/Simple-Rename-Bot")
+        InlineKeyboardButton("🤖 SOURCE CODE", url="https://github.com/PRANEET77057/Simple-Rename-Bot")
         ],[
         InlineKeyboardButton("🖥️ How To Deploy", url="https://youtu.be/oc847WvOUaI")
     ]])
@@ -52,9 +52,9 @@ async def help(bot, msg):
 @Client.on_callback_query(filters.regex("about"))
 async def about(bot, msg):
     me=await bot.get_me()
-    Master=f"<a href=https://t.me/Telugu_Bomma_VR_official</a>"  
-    Source="<a href=https://github.com/Nani0778/Simple-Rename-Bot>Click Here</a>"
-    txt=f"<b>Bot Name: {me.mention}\nDeveloper: <a href=https://github.com/Nani0778>Nani</a>\nBot Updates: <a href=https://t.me/Telugu_Bomma_VR_official>TELUGU_BOMMA_VR_OFFICIAL</a>\nMy Master's: {Master}\nSource Code: {Source}</b>"                 
+    Master="<a href=https://t.me/Telugu_Bomma_VR_official</a>"  
+    Source="<a href=https://github.com/PRANEET77057/Simple-Rename-Bot>Click Here</a>"
+    txt=f"<b>Bot Name: {me.mention}\nDeveloper: <a href=https://github.com/PRANEET77057>Nani</a>\nBot Updates: <a href=https://t.me/Telugu_Bomma_VR_official>TELUGU_BOMMA_VR_OFFICIAL</a>\nMy Master's: {Master}\nSource Code: {Source}</b>"                 
     button= [[        
         InlineKeyboardButton("🚫 Close", callback_data="del"),
         InlineKeyboardButton("⬅️ Back", callback_data="start") 
