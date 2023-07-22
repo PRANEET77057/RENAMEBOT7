@@ -3,9 +3,14 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from config import ADMIN
  
 
-@Client.on_message(filters.command("start") & filters.private)                             
+@Client.on_message(filters.command("start") & filters.private)   
 async def start_cmd(bot, msg):
-    txt="This is personal use bot 🙏. Do you want your own bot? 👇 Click the source code to deploy"
+   txt= """<b>Hᴀɪ {} 👋,
+Tʜɪs Is Aɴ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ Pᴏᴡᴇʀꜰᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ
+Usɪɴɢ Tʜɪs Bᴏᴛ Yᴏᴜ Cᴀɴ Rᴇɴᴀᴍᴇ & Cʜᴀɴɢᴇ Tʜᴜᴍʙɴᴀɪʟ Oꜰ Yᴏᴜʀ Fɪʟᴇ
+Tʜɪs Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛs Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Aɴᴅ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
+Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : MR INTROVERT 💞</b>"""
+
     btn = InlineKeyboardMarkup([[
         InlineKeyboardButton("🤖 SOURCE CODE", url="https://github.com/MrMKN/Simple-Rename-Bot")
         ],[
