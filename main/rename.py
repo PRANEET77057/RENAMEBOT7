@@ -30,7 +30,7 @@ async def rename_start(client, message):
         )
 
       
-    new_name = msg.text.split(" ", 1)[1]
+    og_media = getattr(reply, reply.media.value)
     sts = await msg.reply_text("Trying to Downloading.....")
     c_time = time.time()
     downloaded = await reply.download(file_name=new_name, progress=progress_message, progress_args=("Download Started.....", sts, c_time)) 
