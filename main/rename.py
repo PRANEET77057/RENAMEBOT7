@@ -14,8 +14,8 @@ async def rename_start(client, message):
         await message.reply_text(
             text=f"**__Pʟᴇᴀꜱᴇ Eɴᴛᴇʀ Nᴇᴡ Fɪʟᴇɴᴀᴍᴇ...__**\n\n**Oʟᴅ Fɪʟᴇ Nᴀᴍᴇ** :- `{filename}`",
 	    reply_to_message_id=message.id,  
-	    reply_markup=ForceReply(True)
-        )
+	    reply_markup=ForceReply(True))
+        
   await message.reply_text(
             text=f"**__Pʟᴇᴀꜱᴇ Eɴᴛᴇʀ Nᴇᴡ Fɪʟᴇɴᴀᴍᴇ...__**\n\n**Oʟᴅ Fɪʟᴇ Nᴀᴍᴇ** :- `{filename}`",
 	    reply_to_message_id=message.id,  
