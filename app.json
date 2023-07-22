@@ -8,8 +8,8 @@
     "API_ID": {"description": "Get this value from https://my.telegram.org", "required": true},
     "API_HASH": {"description": "Get this value from https://my.telegram.org", "required": true},                              
     "BOT_TOKEN": {"description": "Your bot token. Get this value from https://t.me/BotFather", "required": true},
-    "ADMIN": {"description": "your telegram id. because this bot repo is admin only", "required": true},
-    "CAPTION": {"description": "your permanent caption. Keyword's 👉 {file_name} = file name add in caption {file_size} = file size add in caption", "value": "{file_name}\n\n💽 Size = {file_size}\n\n📯Join My Channel : @mkn_bots_updates", "required": false}                         
+    "ADMIN": {"description": "your telegram id. because this bot repo is admin only", "required": true},        
+    "CAPTION": {"description": "your permanent caption. Keyword's 👉 {file_name} = file name add in caption {file_size} = file size add in caption", "value": "{file_name}\n\n💽 Size = {file_size}\n\n📯Join My Channel : @Telugu_Bomma_VR_official", "required": false}                         
   }, 
   "addons": [ ],
   "buildpacks": [{"url": "heroku/python"}]
